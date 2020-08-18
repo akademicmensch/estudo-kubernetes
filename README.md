@@ -61,15 +61,9 @@ Service de exemplo: svc-pod-1-loadbalancer e POD de exemplo pod-1
 
 
 Obs: arquivos no diretorio 'exemplificacao-SVC'
+Comando para obter o internal id para Linux: kubectl get nodes -o wide
 
 
+## ConfigMap
 
-## 
-
-
-
-## 
-
-
-
-## 
+- Arquivo de configuracao de variaveis de ambiente. Define-se aqui a variavel e o pod que a consome deve fazer a importacao do configMap.
